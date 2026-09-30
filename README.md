@@ -23,4 +23,8 @@ To use the skills without cloning, `npx skills add mpattee/skills` copies them i
 
 ## Skills
 
-- **canon-tdd:** test-driven development worked from a test list, following Kent Beck's [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd): list the behaviours, then red, make it work, make it right, and back to the list. Its rules for what makes a good test draw on Matt Pocock's [tdd skill](https://github.com/mattpocock/skills).
+- **canon-tdd:** test-driven development worked from a test list, following Kent Beck's [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd): list the behaviours, then red, make it work, make it right, and back to the list.
+
+## Credits
+
+`canon-tdd`'s rules for good tests, and the examples in its `examples-*.md` files, are adapted from Matt Pocock's [tdd skill](https://github.com/mattpocock/skills), used under the MIT licence: Copyright (c) 2026 Matt Pocock.

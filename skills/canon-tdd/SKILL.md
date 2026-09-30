@@ -55,6 +55,8 @@ Done when the list is empty and the full test suite passes. Before calling it fi
 
 ## Tests worth keeping
 
+When writing a test or deciding what to fake, read the examples for the project's language, [Swift](examples-swift.md) or [Rust](examples-rust.md), for good and bad tests side by side. For any other language, read the Swift file.
+
 - **Through the seam.** A test calls the public interface and asserts on what a caller can observe, so it survives a rewrite of the internals. Verify a write by reading it back through the interface.
 - **Named for the behaviour:** "expired token triggers one refresh", not "test_refresh_2".
 - **Independent expected values.** Take them from a literal, a worked example, the spec, or the original code's tests when porting. An expected value computed the way the code computes it passes by construction and can never disagree with the code.
