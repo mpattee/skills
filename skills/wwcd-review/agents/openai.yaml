@@ -1,0 +1,3 @@
+interface:
+  display_name: "WWCD Review"
+  short_description: "Review a PR against an independent plan from its ticket"
