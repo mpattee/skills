@@ -5,6 +5,8 @@ description: "Review a pull request against an independent implementation plan d
 
 # WWCD Review
 
+WWCD stands for "What Would Claude Do": before looking at the PR, decide how you would implement the ticket, then hold the PR up against that.
+
 Review the ticket first, derive the implementation the ticket calls for from the existing code, then compare the PR's changes with that plan. Report meaningful differences and explain which approach better satisfies the ticket and why.
 
 ## Repo configuration
