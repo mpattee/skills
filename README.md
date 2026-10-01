@@ -25,7 +25,7 @@ To use the skills without cloning, `npx skills add mpattee/skills` copies them i
 
 - **canon-tdd:** test-driven development worked from a test list, following Kent Beck's [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd): list the behaviours, then red, make it work, make it right, and back to the list.
 - **setup-mike-pattee-skills:** run once per repo. Records where tickets live and how they're referenced, where pull requests are reviewed, and where the domain docs are, in `docs/agents/`. The other skills read those files. It uses the same files as Matt Pocock's `setup-matt-pocock-skills`, so a repo set up by either works with both.
-- **wwcd-review** (What Would Claude Do)**:** reviews a pull request against its ticket. It writes its own implementation plan from the ticket and the code before reading the diff, then compares the two and says which approach is better and why.
+- **wwcd-review** (What Would Claude Do)**:** reviews a pull request against its ticket. It writes its own implementation plan from the ticket and the code before reading the PR's description, commits or diff, so the plan doesn't simply echo the PR. Then it compares the two and says which approach is better and why.
 
 ## Credits
 
